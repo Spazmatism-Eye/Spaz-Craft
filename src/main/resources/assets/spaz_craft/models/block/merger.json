@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "spaz_craft:blocks/merger_bottom",
+    "up": "spaz_craft:blocks/merger_top",
+    "north": "spaz_craft:blocks/merger_front",
+    "east": "spaz_craft:blocks/merger_side",
+    "south": "spaz_craft:blocks/merger_side",
+    "west": "spaz_craft:blocks/merger_side",
+    "particle": "spaz_craft:blocks/merger_bottom"
+  }
+}

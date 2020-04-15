@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "spaz_craft:cosmiteingot"
+    },
+    "title": {
+      "translate": "advancements.getcosmiteingot.title"
+    },
+    "description": {
+      "translate": "advancements.getcosmiteingot.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "getcosmiteingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "spaz_craft:cosmiteingot",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "spaz_craft:getmerger"
+}

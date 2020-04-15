@@ -1,0 +1,13 @@
+{
+  "group": "spaz_craft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "spaz_craft:steelblock"
+    }
+  ],
+  "result": {
+    "item": "spaz_craft:steelingot",
+    "count": 9
+  }
+}

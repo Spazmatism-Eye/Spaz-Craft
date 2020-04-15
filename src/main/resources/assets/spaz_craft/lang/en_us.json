@@ -1,1 +1,17 @@
-{}
+{
+  "block.spaz_craft.cosmiteblock": "Block of Cosmite",
+  "advancements.thesakthatsmilesback.title": "The Sak That Smiles Back",
+  "item.spaz_craft.hotdog": "Hotdog",
+  "item.spaz_craft.steelingot": "Steel Ingot",
+  "advancements.getmerger.title": "Mergin Stuff",
+  "advancements.getcosmiteingot.descr": "Obtain a Cosmite Ingot",
+  "block.spaz_craft.merger": "Merger",
+  "item.spaz_craft.sakdog": "SakDog",
+  "block.spaz_craft.steelblock": "Block of Steel",
+  "advancements.getsteelingot.title": "Ingot Upgrade",
+  "advancements.getcosmiteingot.title": "Cosmic",
+  "advancements.getmerger.descr": "Obtain a Merger",
+  "advancements.getsteelingot.descr": "Obtain a Steel Ingot",
+  "item.spaz_craft.cosmiteingot": "Cosmite Ingot",
+  "advancements.thesakthatsmilesback.descr": "Eat a SakDog"
+}

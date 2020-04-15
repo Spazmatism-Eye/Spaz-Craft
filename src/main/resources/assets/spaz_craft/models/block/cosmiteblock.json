@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "spaz_craft:blocks/cosmite_block",
+    "up": "spaz_craft:blocks/cosmite_block",
+    "north": "spaz_craft:blocks/cosmite_block",
+    "east": "spaz_craft:blocks/cosmite_block",
+    "south": "spaz_craft:blocks/cosmite_block",
+    "west": "spaz_craft:blocks/cosmite_block",
+    "particle": "spaz_craft:blocks/cosmite_block"
+  }
+}

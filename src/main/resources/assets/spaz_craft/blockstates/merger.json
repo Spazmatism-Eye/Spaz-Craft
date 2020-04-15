@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "spaz_craft:block/merger"
+    },
+    "facing=east": {
+      "model": "spaz_craft:block/merger",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "spaz_craft:block/merger",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "spaz_craft:block/merger",
+      "y": 270
+    }
+  }
+}

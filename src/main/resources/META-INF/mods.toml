@@ -7,7 +7,7 @@ version="1.0.0"
 displayName="Spaz Craft"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="ALi, MCreator"
+authors="ALi"
 
 [[dependencies.spaz_craft]]
     modId="minecraft"

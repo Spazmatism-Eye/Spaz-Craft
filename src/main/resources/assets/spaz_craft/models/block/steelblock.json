@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "spaz_craft:blocks/steel_block",
+    "up": "spaz_craft:blocks/steel_block",
+    "north": "spaz_craft:blocks/steel_block",
+    "east": "spaz_craft:blocks/steel_block",
+    "south": "spaz_craft:blocks/steel_block",
+    "west": "spaz_craft:blocks/steel_block",
+    "particle": "spaz_craft:blocks/steel_block"
+  }
+}

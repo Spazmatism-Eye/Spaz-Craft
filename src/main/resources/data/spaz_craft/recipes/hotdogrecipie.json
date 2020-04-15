@@ -1,0 +1,26 @@
+{
+  "group": "spaz_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bread"
+    },
+    "1": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "2": {
+      "item": "minecraft:bread"
+    },
+    "4": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "spaz_craft:hotdog",
+    "count": 1
+  }
+}
