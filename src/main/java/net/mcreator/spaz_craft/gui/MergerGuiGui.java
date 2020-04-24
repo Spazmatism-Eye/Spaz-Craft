@@ -31,6 +31,7 @@ import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.spaz_craft.procedures.MergerTakenFromProcedure;
+import net.mcreator.spaz_craft.procedures.MergerShiftClickedProcedure;
 import net.mcreator.spaz_craft.SpazCraftElements;
 import net.mcreator.spaz_craft.SpazCraft;
 
@@ -98,6 +99,12 @@ public class MergerGuiGui extends SpazCraftElements.ModElement {
 					ItemStack retval = super.onTake(entity, stack);
 					GuiContainerMod.this.slotChanged(2, 1, 0);
 					return retval;
+				}
+
+				@Override
+				public void onSlotChange(ItemStack a, ItemStack b) {
+					super.onSlotChange(a, b);
+					GuiContainerMod.this.slotChanged(2, 2, b.getCount() - a.getCount());
 				}
 
 				@Override
@@ -413,6 +420,18 @@ public class MergerGuiGui extends SpazCraftElements.ModElement {
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
 				MergerTakenFromProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 2 && changeType == 2) {
+			int amount = meta;
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				MergerShiftClickedProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}

@@ -1,40 +1,35 @@
 {
   "group": "spaz_craft",
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "012",
-    "345",
-    "678"
-  ],
-  "key": {
-    "0": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "spaz_craft:steelingot"
     },
-    "1": {
+    {
       "item": "spaz_craft:steelingot"
     },
-    "2": {
+    {
       "item": "spaz_craft:steelingot"
     },
-    "3": {
+    {
       "item": "spaz_craft:steelingot"
     },
-    "4": {
+    {
       "item": "spaz_craft:steelingot"
     },
-    "5": {
+    {
       "item": "spaz_craft:steelingot"
     },
-    "6": {
+    {
       "item": "spaz_craft:steelingot"
     },
-    "7": {
+    {
       "item": "spaz_craft:steelingot"
     },
-    "8": {
+    {
       "item": "spaz_craft:steelingot"
     }
-  },
+  ],
   "result": {
     "item": "spaz_craft:steelblock",
     "count": 1

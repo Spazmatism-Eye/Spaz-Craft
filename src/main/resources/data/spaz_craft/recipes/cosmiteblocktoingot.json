@@ -1,0 +1,13 @@
+{
+  "group": "spaz_craft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "spaz_craft:cosmiteblock"
+    }
+  ],
+  "result": {
+    "item": "spaz_craft:cosmiteingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "group": "spaz_craft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "spaz_craft:cosmiteingot"
+    },
+    {
+      "item": "spaz_craft:cosmiteingot"
+    },
+    {
+      "item": "spaz_craft:cosmiteingot"
+    },
+    {
+      "item": "spaz_craft:cosmiteingot"
+    },
+    {
+      "item": "spaz_craft:cosmiteingot"
+    },
+    {
+      "item": "spaz_craft:cosmiteingot"
+    },
+    {
+      "item": "spaz_craft:cosmiteingot"
+    },
+    {
+      "item": "spaz_craft:cosmiteingot"
+    },
+    {
+      "item": "spaz_craft:cosmiteingot"
+    }
+  ],
+  "result": {
+    "item": "spaz_craft:cosmiteblock",
+    "count": 1
+  }
+}

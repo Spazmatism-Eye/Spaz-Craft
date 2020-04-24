@@ -38,6 +38,9 @@
           "onTakenFromSlot": {
             "name": "MergerTakenFrom"
           },
+          "onStackTransfer": {
+            "name": "MergerShiftClicked"
+          },
           "name": "Slot #2",
           "x": 408,
           "y": 150
